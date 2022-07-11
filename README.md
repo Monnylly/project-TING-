@@ -47,7 +47,7 @@ Para isso, o programa desenvolvido por você deverá ter dois módulos:
   <summary><strong>🗓 Data de Entrega</strong></summary><br />
 
   - Este projeto é `individual`;
-  - São `X` dias de projeto;
+  - São `2` dias de projeto;
   - Data para entrega final do projeto: `21/07/2022 14:10`.
 
 </details>
