@@ -9,10 +9,11 @@ class Queue:
         self._head_value.append(value)
 
     def dequeue(self):
-        result_last = self._head_value[0]
-        del self._head_value[0]
         if not self.__len__():
             return None
+
+        result_last = self._head_value[0]
+        del self._head_value[0]
         return result_last
 
     def search(self, index):

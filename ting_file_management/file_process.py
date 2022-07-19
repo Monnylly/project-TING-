@@ -19,13 +19,13 @@ def process(path_file, instance: Queue):
     return sys.stdout.write(str(process))
 
 
-def remove(instance: Queue) -> None:
+def remove(instance: Queue):
     if not len(instance):
         return sys.stdout.write("Não há elementos\n")
-    else:
-        result_remove = instance
-        ["nome_do_arquivo"]
-        sys.stdout.write(f"Arquivo {result_remove} removido com sucesso\n")
+
+    result_remove = instance.dequeue()
+    sys.stdout.write(
+        f"Arquivo {result_remove['nome_do_arquivo']} removido com sucesso\n")
 
 
 def file_metadata(instance: Queue, position: int):
